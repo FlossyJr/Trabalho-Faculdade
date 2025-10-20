@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card hero">
+<h1>Diz os ingredientes que tens, marujo</h1>
+<p>Eu — e o barmen pirata automático — vou sugerir um drink com o que tens.</p>
+<form id="ingredients-form">
+<input id="ingredients-input" placeholder="ex: rum, limão, açúcar" />
+<button type="submit" class="btn">Sugerir drink</button>
+</form>
+<div id="result" class="result"></div>
+</div>
+{% endblock %}

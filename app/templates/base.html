@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Drink Pirate App</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+<nav class="nav">
+<div class="brand">🍹 Drink Pirate</div>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/dashboard">Dashboard</a>
+<a href="/logout">Sair</a>
+</div>
+</nav>
+
+
+<main class="container">
+{% block content %}{% endblock %}
+</main>
+
+
+<script src="/static/js/main.js"></script>
+</body>
+</html>
